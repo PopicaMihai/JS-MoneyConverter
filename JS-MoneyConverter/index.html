@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Money Converter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h1 class="display-4 text-center mb-3">Money Converter</h1>
+                    <form>
+                        <div class="form-group">
+                        <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter your sum of Lei...">
+                        </div>
+                    </form>
+                    <div id="output">
+                        <div class="card bg-primary mb-2">
+                            <div class="card-body">
+                                <h4>Euro</h4>
+                                <div id="euroOutput" class="size"></div>
+                            </div>
+                        </div>
+                
+                        <div class="card bg-danger mb-2">
+                            <div class="card-body">
+                                <h4>Pounds</h4>
+                                <div id="poundsOutput" class="size"></div>
+                            </div>
+                        </div>
+                
+                        <div class="card bg-success mb-2">
+                            <div class="card-body">
+                                <h4>Dollars</h4>
+                                <div id="dollarsOutput" class="size"></div>
+                            </div>
+                        </div>
+
+                        <div class="card bg-dark mb-2">
+                            <div class="card-body">
+                                <h4>Yen</h4>
+                                <div id="yeniOutput" class="size"></div>
+                            </div>
+                        </div>
+
+                        <div class="card bg-warning mb-2">
+                            <div class="card-body">
+                                <h4>Gold</h4>
+                                <div id="goldOutput" class="size"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
